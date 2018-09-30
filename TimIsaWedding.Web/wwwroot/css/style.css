@@ -278,9 +278,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-#qbootstrap-couple,
 #qbootstrap-countdown,
-#qbootstrap-groom-bride,
 #qbootstrap-story,
 #qbootstrap-people,
 #qbootstrap-when-where,
@@ -289,6 +287,12 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-testimonials,
 #qbootstrap-press {
   padding: 7em 0;
+}
+#qbootstrap-couple {
+    padding: 7em 0 2em 0;
+}
+#qbootstrap-groom-bride {
+    padding: 2em 0 7em 0;
 }
 @media screen and (max-width: 480px) {
   #qbootstrap-couple,
@@ -721,30 +725,30 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 0;
 }
-.couple.groom:after {
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  content: '';
-  background: #f4f3e2;
-  z-index: -1;
-}
+    .couple.groom:after {
+        position: absolute;
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        content: '';
+        background: #E2E0E1;
+        z-index: -1;
+    }
 .couple.bride {
   position: relative;
   z-index: 0;
 }
-.couple.bride:after {
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  content: '';
-  background: #fef6f8;
-  z-index: -1;
-}
+    .couple.bride:after {
+        position: absolute;
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        content: '';
+        background: #E2E0E1;
+        z-index: -1;
+    }
 .couple img {
   width: 300px;
   margin: 0 auto;
@@ -780,8 +784,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   margin-left: 0px;
 }
+.btn-rsvp{
+    font-size:30px;
+}
 @media screen and (max-width: 768px) {
-  .timeline:before {
+    .timeline:before {
     margin-left: 15px;
   }
 }
@@ -1195,6 +1202,11 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+    border-radius: 20%;
+    color: #333333 !important;
 }
 @media screen and (max-width: 768px) {
   .wedding-events .desc .icon {
