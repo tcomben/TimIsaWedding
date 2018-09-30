@@ -286,25 +286,18 @@
 		}
 		}, 1000);	
 	
-		
-	var bgVideo = function() {
-		$('.player').mb_YTPlayer();
-	};
-        
-
 	// Document on load.
 	$(function(){
 
 		burgerMenu();
-		testimonialCarousel();
+		//testimonialCarousel();
 		sliderMain();
 		clickMenu();
 		parallax();
-		// windowScroll();
+		windowScroll();
 		navigationSection();
 		contentWayPoint();
 		inlineSVG();
-		bgVideo();
 	});
 
 
