@@ -1291,15 +1291,21 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.3);
 }
 #qbootstrap-started .btn {
-  height: 54px;
+  height: 74px;
   border: none !important;
   background: #FF847C;
   color: #fff;
-  font-size: 16px;
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+}
+@media (max-width: 576px) {
+    #qbootstrap-started .btn {
+        font-size: 1em;
+        padding-top:1em;
+    }
 }
 #qbootstrap-started .form-inline .form-group {
   width: 100% !important;
@@ -1701,4 +1707,12 @@ h1, h2, h3, h4, h5, h6 {
 /*# sourceMappingURL=style.css.map */
 .amazon-btn {
     margin-top: 1em !important;
+}
+
+.callout {
+    color: white !important;
+    font-size: 2em !important;
+    margin-bottom: 2em !important;
+    animation-duration: 3s;
+    animation-delay: 2s;
 }
